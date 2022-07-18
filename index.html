@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK PAPER SCISSORS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="rockPaperScissorsH1">ROCK PAPER SCISSORS</h1>
+    <button class="startBtn">Start</button>
+    <div class="container">
+      <div class="pc"><h1>pc</h1>
+    <img src="img\1.png" class="pcImg rpsBtnPc" alt="">
+    </div>
+      <div class="player">
+        <h1>player</h1>
+        <h2 class="choose hidden">choose</h2> 
+        <img src="img\1.png"  class="playerImg rpsBtnPc" alt="">
+        <div class="rpsBtn hidden">
+        <img class="bt rock" src="img\1.png"></img>
+        <img class="bt paper" src="img\2.png"></img>
+        <img class="bt scissors" src="img\3.png"></img>
+        </div>
+        
+      </div>
+      <div class="scores">
+        <h2>
+          <span class="pcScore">0</span>
+          :
+          <span class="playerScore">0</span>
+        </h2>
+      </div>
+      <div class="displayMessageDiv">
+        <h2 class="displayMessage hidden"> YOU WIN</h2>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+body {
+  color: #333;
+  text-align: center;
+  background-image: linear-gradient(to right, #753682 0%, #bf2e34 100%);
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 800;
+  font-family: "Courier New", Courier, monospace;
+}
+.startBtn {
+  background-color: #c7365f;
+  border-radius: 8px;
+  font-size: 3rem;
+  color: rgb(37, 37, 37);
+  width: 150px;
+  height: 70px;
+  border: none;
+}
+.container {
+  position: relative;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.4);
+  height: auto;
+  margin: 2rem 4rem 0 4rem;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 3rem 5rem rgb(0 0 0 / 25%);
+  height: 23rem;
+}
+.pc {
+  flex: 50%;
+  align-items: center;
+  position: relative;
+}
+.player {
+  flex: 50%;
+  align-items: center;
+  position: relative;
+}
+.scores {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
+  width: 14rem;
+
+  text-align: center;
+}
+.displayMessageDiv {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+  width: 12rem;
+
+  text-align: center;
+}
+h2 {
+  font-size: 3rem;
+
+  font-family: "Courier New", Courier, monospace;
+}
+.rpsBtn {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  width: 60rem;
+}
+.bt {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 0.2rem;
+}
+.pcImg {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 0.2rem;
+}
+.playerImg {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 0.2rem;
+}
+.rpsBtnPc {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+.hidden {
+  visibility: hidden;
+}
